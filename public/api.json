@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 1500,
+      "id": 1,
+      "title": "Computadora",
+      "thumbnailUrl": "https://picsum.photos/id/0/600"
+    },
+    {
+      "precio": 800,
+      "id": 2,
+      "title": "Excusión al Lago Azul",
+      "thumbnailUrl": "https://picsum.photos/id/10/600"
+    },
+    {
+      "precio": 100,
+      "id": 3,
+      "title": "Cuardernos",
+      "thumbnailUrl": "https://picsum.photos/id/20/600"
+    },
+    {
+      "precio": 50,
+      "id": 4,
+      "title": "Tasa",
+      "thumbnailUrl": "https://picsum.photos/id/30/600"
+    },
+    {
+      "precio": 1000,
+      "id": 5,
+      "title": "Experiencias en Vacaciones",
+      "thumbnailUrl": "https://picsum.photos/id/40/600"
+    },
+    {
+      "precio": 1150,
+      "id": 6,
+      "title": "Viajes al Caribe",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    }
+  ]
