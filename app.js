@@ -6,7 +6,7 @@ const port = 3000;
 // CONTENIDO DINAMICO HANDLEBARS
 // motor de plantillas
 app.set("view engine", "hbs")
-
+hbs.registerPartials(__dirname + "/views/partials/")
 
 // CONTENIDO ESTATICO 
 // Esta carpeta public va a tener prioridad sobre el resto de las carpetas
@@ -16,6 +16,14 @@ app.use(express.static("public"))  //cuando uso hbs a static lo dejo ya que teng
 // solo renderise el index
 app.get("/",(req,res)=>{
     res.render("index")
+});
+
+app.get("/registrarse",(req,res)=>{
+    res.render("registrarse")
+});
+
+app.get("/contactos",(req,res)=>{
+    res.render("contactos")
 });
 
 

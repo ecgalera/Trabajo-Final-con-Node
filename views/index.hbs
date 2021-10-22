@@ -15,24 +15,8 @@
 <body>
  
 <header>
-  
+  {{> header}}
 <!-- Nav-bar- resonsive -->
-<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark
- navbar fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="./pag_int.html/resgistrarse.html">Registrarse</a>
-        <a class="nav-link" href="./pag_int.html/contactos.html">Contacto</a>
-      </div>
-    </div>
-  </div>
-</nav>
 
 </header>
 
@@ -132,19 +116,8 @@
   </template>
 
   <footer class="footer__container">
-    <ul>
-        <li>Dirección</li>
-        <li>Telefono</li>
-        <li>E-mail</li>
-    </ul>
-   
-    <ul>
-        <li><a href="">Facebook</a></li>
-        <li><a href=""></a>Twitter</li>
-        <li><a href=""></a>Instagram</li>
-    </ul>
-
-</footer>
+    {{> footer}}
+  </footer>
 
 
   <script src="./js/bootstrap.min.js"></script>
