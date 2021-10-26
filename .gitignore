@@ -1,4 +1,4 @@
 # Agrego .env que contiene información sencible para que no se agrege a git
-.env
+# env
 # Agrego Node_Modules para que no se agrege a git
-node_modules
+node_modules/

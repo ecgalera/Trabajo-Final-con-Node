@@ -1,7 +1,11 @@
 const express = require("express");
 const hbs = require("hbs")
+
+require("dotenv").config();
+
 const app = express();
-const port = 3000;
+// CONFIGURAMOS UN NUEVO PUERTO PARA EL HOSTING
+const port = process.env.PORT;
 
 // CONTENIDO DINAMICO HANDLEBARS
 // motor de plantillas
